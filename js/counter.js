@@ -19,7 +19,7 @@
 			var loops = Math.ceil(settings.speed / settings.refreshInterval),
 				increment = (settings.to - settings.from) / loops;
 
-			// references & variables that will change with each update
+		
 			var self = this,
 				$self = $(this),
 				loopCount = 0,
