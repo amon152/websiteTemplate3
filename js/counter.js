@@ -6,7 +6,7 @@
 		options = options || {};
 
 		return $(this).each(function () {
-			// set options for current element
+			
 			var settings = $.extend({}, $.fn.countTo.defaults, {
 				from:            $(this).data('from'),
 				to:              $(this).data('to'),
