@@ -15,7 +15,7 @@
 				decimals:        $(this).data('decimals')
 			}, options);
 
-			// how many times to update the value, and how much to increment the value on each update
+			
 			var loops = Math.ceil(settings.speed / settings.refreshInterval),
 				increment = (settings.to - settings.from) / loops;
 
